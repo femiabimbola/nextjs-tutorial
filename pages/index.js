@@ -1,6 +1,22 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+// import styles from '../styles/Home.module.css'
+import {ThemeProvider } from "theme-ui";
+import theme from 'theme'
+
+import SEO from '../src/components/seo';
+import Layout from '../src/components/layout';
+import Banner from '../src/sections/banner';
+import KeyFeature from '../src/sections/key-feature';
+import ServiceSection from  '../src/sections/service-section';
+import Feature from "../src/sections/feature";
+import CoreFeature from "../src/sections/core-feature";
+import WorkFlow from "../src/sections/workflow";
+import Package from "../src/sections/package";
+import TeamSection from "../src/sections/team-section";
+import TestimonialCard from "../src/sections/testimonial";
+
+
 
 export default function Home() {
   return (
